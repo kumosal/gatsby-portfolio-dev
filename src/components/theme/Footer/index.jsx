@@ -7,10 +7,11 @@ export const Footer = () => (
 	<Wrapper>
 		<Flex as={Container}>
 			<Details>
-				<h2>John Doe</h2>
+				<h2>WinoDev</h2>
 				<span>
-					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
-					<span aria-label="love" role="img">
+					© All rights are reserved | {new Date().getFullYear()} | Made with
+					Gatsbyjs
+					{/* <span aria-label="love" role="img">
 						💖
 					</span>{' '}
 					by{' '}
@@ -20,7 +21,7 @@ export const Footer = () => (
 						target="_blank"
 					>
 						Smakosh
-					</a>
+					</a> */}
 				</span>
 			</Details>
 			<Links>
